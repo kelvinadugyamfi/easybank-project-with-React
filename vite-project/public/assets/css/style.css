@@ -1,0 +1,85 @@
+
+
+#fstPic{
+    padding-left: 10%;
+}
+
+h1{
+    width: 100%;
+}
+
+button{
+        background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+        padding: 1rem 3rem;
+        border: 0;
+        border-radius: 100px;
+}
+
+#textBox{
+    margin-top: 35%;
+}
+
+#sndBox{
+    display: block;
+    position: relative;
+    margin-top: 55%;
+}
+
+#cards{
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+  label {
+    opacity: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  img {
+    max-width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+
+.articles {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+.sub-article {
+    padding: 0 6%;
+  }
+
+.latest_article {
+    position: relative;
+    top: -300px;
+    padding: 0 5%;
+    margin-bottom: -200px;
+}
+
+.latest_article {
+    padding: 5%;
+    margin-top: 350px;
+    bottom: 0;
+    text-align: center;
+  }
+
+  .articles_container {
+    grid-template-columns: auto;
+    text-align: left;
+    gap: 2%;
+  }
+
+  .articles_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding-top: 3%;
+  }
+
+  #lastArt{
+    justify-content: start;
+  }
+          

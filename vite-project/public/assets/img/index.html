@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<div class="position-relative">
+   <!-- navbar -->
+ <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid p-2">
+    <img src="/logo easy.svg" alt="" class="img-fluid ms-5">
+    
+    <div class="collapse navbar-collapse mx-5 justify-content-evenly">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Careers</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn me-5 rounded-pill">Request Invite</button>  
+  </div>
+ </nav>
+
+<div class="container-fluid  position-relative d-block">
+  <div class="position-absolute p-5 mt-5">
+    <div  >
+      <h1 id="textBox">Next generation <br>digital banking</h1>
+    </div>
+    <div>
+      <p>Take your financial life online. Your Easybank account will be <br>
+         a one-stop-shop for spending, saving, budgeting, investing, <br>
+          and much more.</p>
+    </div>
+    <div>
+      <button type="button" class="btn me-5 rounded-pill w-50">Request Invite</button>  
+    </div>
+  </div>
+    <img src="./image-mockups.png" alt="" class="z-2 w-50 position-absolute end-0" >
+    <img src="./bg-intro-desktop.svg" alt="" class="z-1 w-75 position-absolute end-0" id="fstPic">  
+</div> 
+</div>
+<div class="px-5 bg-body-tertiary" id="sndBox">
+  <div class="pt-5">
+    <h1 class="fw-normal">
+      Why choose Easybank?
+    </h1>
+  </div>
+  <div>
+    <p class="text-secondary">
+      We leverage Open Banking to turn your bank account into your <br>
+      financial hub. Control your finances like never before.
+    </p>
+  </div>
+   <div class="section-container row" id="cards">
+        <div class="section-grid col-3">
+          <img src="./icon-online.svg" alt="">
+          <h4 class="pt-3"> Online Banking</h4>
+          <p>
+            Our modern web and mobile <br> applications allow you to keep <br> track of your finances
+            wherever you <br> are in the world.
+          </p>
+        </div>
+        <div class="section-grid col-3">
+          <img src="./icon-budgeting.svg" alt="">
+          <h4 class="pt-3"> Simple Budgeting</h4>
+          <p>
+            See exactly where your money <br> goes each month. Receive <br> notifications when you’re
+            close to <br> hitting your limits.
+          </p>
+        </div>
+        <div class="section-grid col-3">
+          <img src="./icon-onboarding.svg" alt="">
+          <h4 class="pt-3"> Fast Onboarding</h4>
+          <p>
+            We don’t do branches. Open your <br> account in minutes online and start <br> taking control
+            of your finances <br> right away.
+
+          </p>
+        </div>
+        <div class="section-grid col-3">
+          <img src="./icon-api.svg" alt="">
+          <h4 class="pt-3"> Open API </h4>
+          <p>
+            Manage your savings, investments, <br> pension, and much more from one <br> account. Tracking
+            your money has <br> never been easier.
+          </p>
+        </div>
+      </div>
+    </div> 
+</div>
+
+<div class="latest_article">
+ 
+  <h1> Latest Articles </h1>
+
+  <div class="articles_container">
+    <div class="articles shadow bg-white">
+      <img src="./image-currency.jpg" alt="Currency">
+      <div class="sub-article">
+        <label for="">By Claire Robinson</label>
+        <h4> Receive money in any currency with no fees</h4>
+        <p>
+          The world is getting smaller and we’re becoming more mobile. So why should you be
+          forced to only receive money in a single …
+        </p>
+      </div>
+    </div>
+
+    <div class="articles shadow bg-white">
+      <img src="./image-restaurant.jpg" alt="Restaurant">
+      <div class="sub-article">
+        <label for=""> By Wilson Hutton</label>
+        <h4> Treat yourself without worrying about money</h4>
+        <p>
+          Our simple budgeting feature allows you to separate out your spending and set
+          realistic limits each month. That means you …
+        </p>
+      </div>
+    </div>
+
+    <div class="articles shadow bg-white">
+      <img src="./image-plane.jpg" alt="Plane">
+      <div class="sub-article">
+        <label for=""> By Wilson Hutton</label>
+        <h4> Take your Easybank card wherever you go</h4>
+        <p>
+          We want you to enjoy your travels. This is why we don’t charge any fees on purchases
+          while you’re abroad. We’ll even show you …
+        </p>
+      </div>
+    </div>
+
+    <div class="articles shadow bg-white">
+      <img src="./image-confetti.jpg" alt="Confetti">
+      <div class="sub-article">
+        <label for=""> By Claire Robinson</label>
+        <h4> Our invite-only Beta accounts are now live! </h4>
+        <p>
+          After a lot of hard work by the whole team, we’re excited to launch our closed beta.
+          It’s easy to request an invite through the site ...
+        </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="bg-dark p-4 position-relative">
+  <div class="footer-grid">
+    <img src="./logo.svg" alt="Logo" class="footer-logo p-4" style="filter: brightness(0) invert(1);">
+
+    <div class="icons p-4 w-25">
+      <a href="https://web.facebook.com/Mercyoluwap/" target="_blank">
+        <img src="./icon-facebook.svg" alt="">
+      </a>
+
+      <a href="#" target="_blank">
+        <img src="./icon-youtube.svg" alt="">
+      </a>
+
+      <a href="https://twitter.com/codewithmercy" target="_blank">
+        <img src="./icon-twitter.svg" alt="">
+      </a>
+
+      <a href="#" target="_blank">
+        <img src="./icon-pinterest.svg" alt="">
+      </a>
+
+      <a href="www.instagram.com/codewithmercy" target="_blank">
+        <img src="./icon-instagram.svg" alt="">
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-grid w-75 position-absolute top-0 end-0 p-5">
+    <div class="row">
+      <div class="col-md-3">
+        <nav class="footer-nav">
+          <li><a href="#" class="text-white"> About Us </a></li>
+          <li><a href="#" class="text-white"> Contact </a></li>
+          <li><a href="#" class="text-white"> Blog </a></li>
+        </nav>
+      </div>
+      <div class="col-md-3">
+        <nav class="footer-nav">
+          <li><a href="#" class="text-white"> Careers  </a></li>
+          <li><a href="#" class="text-white">  Support </a></li>
+          <li><a href="#" class="text-white"> Privacy Policy </a></li>
+        </nav>
+      </div>
+    </div>
+  </div>
+  
+  <div class="copyright position-absolute top-0 end-0 p-5">
+    <button type="button" class="btn rounded-pill mb-4 p-2 w-100">Request Invite</button>
+    <p class="text-white">© Easybank. All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script></body>
+</body>
+  </html>
